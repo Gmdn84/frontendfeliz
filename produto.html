@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto da Mirror Fashion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/generic/reset.css">
+    <link rel="stylesheet" href="css/elements/basic.css">
+    <link rel="stylesheet" href="css/components/shopping-bag.css">
+    <link rel="stylesheet" href="css/containers/main-header.css">
+</head>
+<body>
+    <header class="main-header">
+        <img class="logo" src="img/logo.png" alt="Logo da Mirror Fashion">
+        <p class="shopping-bag">
+            Nenhum item na sacola de compras
+        </p>
+
+        <nav class="menu">
+            <a class="action" href="#">Sua Conta</a>
+            <a class="action" href="#">Lista de Desejos</a>
+            <a class="action" href="#">Cartão Fidelidade</a>
+            <a class="action" href="sobre.html">Sobre</a>
+            <a class="action" href="#">Ajuda</a>
+        </nav>
+    </header>
+    
+    <section class="product">
+        <h2 class="title">Camiseta Ecko Caveira Bad to The Bone</h2>
+        <p class="price">por apenas R$ 48,95</p>
+     
+        <form action="checkout.html" method="POST">
+          <fieldset class="cores">
+            <legend>Escolha a cor:</legend>
+     
+            <input type="radio" name="cor" value="verde" id="verde" checked>
+            <label for="verde">
+                <img src="img/produtos/foto2-verde.png" alt="Produto na cor verde">
+            </label>
+     
+            <input type="radio" name="cor" value="rosa" id="rosa">
+            <label for="rosa">
+              <img src="img/produtos/foto2-rosa.png" alt="Produto na cor rosa">
+            </label>
+     
+            <input type="radio" name="cor" value="azul" id="azul">
+            <label for="azul">
+                <img src="img/produtos/foto2-azul.png" alt="Produto na cor azul">
+            </label>
+          </fieldset>
+     
+          <button class="comprar">Comprar</button>
+        </form>
+      </section>
+
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
+
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+.main-header{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+
+.main-header>.logo{
+    widows: 150px;
+    margin-bottom: 10px;
+}
+
+.main-header>.action {
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+
+}
